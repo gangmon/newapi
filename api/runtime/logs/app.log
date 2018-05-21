@@ -13813,3 +13813,53 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1526809238.868
     'REQUEST_TIME' => 1526809238
 ]
+2018-05-21 13:41:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-05-21 13:41:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WwJb7N-yH9StFb73xRwhtAAAAAE'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:59577'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/56116'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '50379'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1526881260.969
+    'REQUEST_TIME' => 1526881260
+]

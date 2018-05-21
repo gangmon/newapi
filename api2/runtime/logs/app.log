@@ -1,0 +1,300 @@
+2018-05-13 23:51:39 [::1][-][n08525hqjbo2uqs0l5nu4k1pl7][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Request.php:1554
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Request.php(1536): yii\web\Request->loadCookies()
+#1 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2-debug/panels/UserPanel.php(81): yii\base\Component->__get('isGuest')
+#8 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2-debug/Module.php(177): yii\BaseYii::createObject(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2-debug/Module.php(149): yii\debug\Module->initPanels()
+#15 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2018-05-13 23:51:39 [::1][-][n08525hqjbo2uqs0l5nu4k1pl7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'UM_distinctid' => '1621e3b8c221a0-0c487ec3d623c-32667b04-1fa400-1621e3b8c23285'
+    'admin_username' => 'admin'
+    'pgv_pvi' => '1133319168'
+    'Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1' => '1520925642,1521434820'
+    'Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec' => '1522751661,1522808390'
+    'CNZZDATA1259283333' => '329558181-1522806620-|1522812157'
+    'PHPSESSID' => 'n08525hqjbo2uqs0l5nu4k1pl7'
+    '_csrf' => '9e2677c0885464bdc562086bb0a350712289b5a9a3fcc81f706879035bbb403da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XQJL-ua3sbuXxULVZkID4byo6EWpWZTo\";}'
+    'advanced-frontend' => '7266839412ec5f9b7670f822a4ac4d21'
+    '_csrf-frontend' => 'dc6f0ba6d60bcfb4a7b8f2c15e8ebb026a8a49201ec953b21206840c17548b5da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wY2O-Ztu-fWNMcPSl7zDyFHsJsRdvn51\";}'
+]
+
+$_SESSION = [
+    'think' => [
+        '__SP_ADMIN_LOGIN_PAGE_SHOWED_SUCCESS__' => true
+        'ADMIN_ID' => 1
+        'name' => 'admin'
+        'token' => '7f4b4e0d55e58ff365475ed92dc936eb6994e8f80d8e6a97db8bf33e280b7e39'
+    ]
+    '__flash' => []
+    '__captcha/site/captcha' => 'fwswba'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WvhfC@p3azXOiLFNFKTGWQAAAAo'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'UM_distinctid=1621e3b8c221a0-0c487ec3d623c-32667b04-1fa400-1621e3b8c23285; admin_username=admin; pgv_pvi=1133319168; Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1=1520925642,1521434820; Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec=1522751661,1522808390; CNZZDATA1259283333=329558181-1522806620-%7C1522812157; PHPSESSID=n08525hqjbo2uqs0l5nu4k1pl7; _csrf=9e2677c0885464bdc562086bb0a350712289b5a9a3fcc81f706879035bbb403da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XQJL-ua3sbuXxULVZkID4byo6EWpWZTo%22%3B%7D; advanced-frontend=7266839412ec5f9b7670f822a4ac4d21; _csrf-frontend=dc6f0ba6d60bcfb4a7b8f2c15e8ebb026a8a49201ec953b21206840c17548b5da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wY2O-Ztu-fWNMcPSl7zDyFHsJsRdvn51%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php'
+    'REMOTE_PORT' => '59363'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api2/web/index.php'
+    'SCRIPT_NAME' => '/newapi/api2/web/index.php'
+    'PHP_SELF' => '/newapi/api2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526226699.825
+    'REQUEST_TIME' => 1526226699
+]
+2018-05-13 23:52:35 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: 页面未找到。 in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Request.php:284
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#1 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2018-05-13 23:52:35 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'UM_distinctid' => '1621e3b8c221a0-0c487ec3d623c-32667b04-1fa400-1621e3b8c23285'
+    'admin_username' => 'admin'
+    'pgv_pvi' => '1133319168'
+    'Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1' => '1520925642,1521434820'
+    'Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec' => '1522751661,1522808390'
+    'CNZZDATA1259283333' => '329558181-1522806620-|1522812157'
+    'PHPSESSID' => 'n08525hqjbo2uqs0l5nu4k1pl7'
+    '_csrf' => '9e2677c0885464bdc562086bb0a350712289b5a9a3fcc81f706879035bbb403da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XQJL-ua3sbuXxULVZkID4byo6EWpWZTo\";}'
+    'advanced-frontend' => '7266839412ec5f9b7670f822a4ac4d21'
+    '_csrf-frontend' => 'dc6f0ba6d60bcfb4a7b8f2c15e8ebb026a8a49201ec953b21206840c17548b5da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wY2O-Ztu-fWNMcPSl7zDyFHsJsRdvn51\";}'
+]
+
+$_SESSION = [
+    'think' => [
+        '__SP_ADMIN_LOGIN_PAGE_SHOWED_SUCCESS__' => true
+        'ADMIN_ID' => 1
+        'name' => 'admin'
+        'token' => '7f4b4e0d55e58ff365475ed92dc936eb6994e8f80d8e6a97db8bf33e280b7e39'
+    ]
+    '__flash' => []
+    '__captcha/site/captcha' => 'fwswba'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WvhfQw9NNVfgzQ@6mF@7GAAAAAE'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'UM_distinctid=1621e3b8c221a0-0c487ec3d623c-32667b04-1fa400-1621e3b8c23285; admin_username=admin; pgv_pvi=1133319168; Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1=1520925642,1521434820; Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec=1522751661,1522808390; CNZZDATA1259283333=329558181-1522806620-%7C1522812157; PHPSESSID=n08525hqjbo2uqs0l5nu4k1pl7; _csrf=9e2677c0885464bdc562086bb0a350712289b5a9a3fcc81f706879035bbb403da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XQJL-ua3sbuXxULVZkID4byo6EWpWZTo%22%3B%7D; advanced-frontend=7266839412ec5f9b7670f822a4ac4d21; _csrf-frontend=dc6f0ba6d60bcfb4a7b8f2c15e8ebb026a8a49201ec953b21206840c17548b5da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wY2O-Ztu-fWNMcPSl7zDyFHsJsRdvn51%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php'
+    'REMOTE_PORT' => '59474'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api2/web/index.php'
+    'SCRIPT_NAME' => '/newapi/api2/web/index.php'
+    'PHP_SELF' => '/newapi/api2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526226755.535
+    'REQUEST_TIME' => 1526226755
+]
+2018-05-13 23:53:34 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: 页面未找到。 in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Request.php:284
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#1 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2018-05-13 23:53:33 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'UM_distinctid' => '1621e3b8c221a0-0c487ec3d623c-32667b04-1fa400-1621e3b8c23285'
+    'admin_username' => 'admin'
+    'pgv_pvi' => '1133319168'
+    'Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1' => '1520925642,1521434820'
+    'Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec' => '1522751661,1522808390'
+    'CNZZDATA1259283333' => '329558181-1522806620-|1522812157'
+    'PHPSESSID' => 'n08525hqjbo2uqs0l5nu4k1pl7'
+    '_csrf' => '9e2677c0885464bdc562086bb0a350712289b5a9a3fcc81f706879035bbb403da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XQJL-ua3sbuXxULVZkID4byo6EWpWZTo\";}'
+    'advanced-frontend' => '7266839412ec5f9b7670f822a4ac4d21'
+    '_csrf-frontend' => 'dc6f0ba6d60bcfb4a7b8f2c15e8ebb026a8a49201ec953b21206840c17548b5da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wY2O-Ztu-fWNMcPSl7zDyFHsJsRdvn51\";}'
+]
+
+$_SESSION = [
+    'think' => [
+        '__SP_ADMIN_LOGIN_PAGE_SHOWED_SUCCESS__' => true
+        'ADMIN_ID' => 1
+        'name' => 'admin'
+        'token' => '7f4b4e0d55e58ff365475ed92dc936eb6994e8f80d8e6a97db8bf33e280b7e39'
+    ]
+    '__flash' => []
+    '__captcha/site/captcha' => 'fwswba'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WvhffWZ7Z@WBY-@xu0EWAgAAAAY'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'UM_distinctid=1621e3b8c221a0-0c487ec3d623c-32667b04-1fa400-1621e3b8c23285; admin_username=admin; pgv_pvi=1133319168; Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1=1520925642,1521434820; Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec=1522751661,1522808390; CNZZDATA1259283333=329558181-1522806620-%7C1522812157; PHPSESSID=n08525hqjbo2uqs0l5nu4k1pl7; _csrf=9e2677c0885464bdc562086bb0a350712289b5a9a3fcc81f706879035bbb403da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XQJL-ua3sbuXxULVZkID4byo6EWpWZTo%22%3B%7D; advanced-frontend=7266839412ec5f9b7670f822a4ac4d21; _csrf-frontend=dc6f0ba6d60bcfb4a7b8f2c15e8ebb026a8a49201ec953b21206840c17548b5da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wY2O-Ztu-fWNMcPSl7zDyFHsJsRdvn51%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php'
+    'REMOTE_PORT' => '59557'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api2/web/index.php'
+    'SCRIPT_NAME' => '/newapi/api2/web/index.php'
+    'PHP_SELF' => '/newapi/api2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526226813.916
+    'REQUEST_TIME' => 1526226813
+]
+2018-05-14 00:33:07 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: 页面未找到。 in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Request.php:284
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#1 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2018-05-14 00:33:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f0488b4e2097258f72a6275b9e544c4c2fc072af03da7f2ea096876f25fb0309a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"57aYnr05pVdYYMAmthqkJshSWT34-lcX\",2592000]\";}'
+    'Hm_lvt_7ac196a00615d2565ac740eae2076f01' => '1525911660'
+    'CNZZDATA1261820751' => '782650176-1525911659-|1525934972'
+    'Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec' => '1522651462'
+    'CNZZDATA1259283333' => '982903449-1522651135-|1522651135'
+    'Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1' => '1522651136'
+    'UM_distinctid' => '16285147dae10-0e956ea6483b6b8-1d451b27-1fa400-16285147daf154'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wvhow6VEMy04PcJxfstZtAAAAAM'
+    'HTTP_HOST' => 'fg'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_identity=f0488b4e2097258f72a6275b9e544c4c2fc072af03da7f2ea096876f25fb0309a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2257aYnr05pVdYYMAmthqkJshSWT34-lcX%22%2C2592000%5D%22%3B%7D; Hm_lvt_7ac196a00615d2565ac740eae2076f01=1525911660; CNZZDATA1261820751=782650176-1525911659-%7C1525934972; Hm_lvt_d554aac8a9af3d52d0d0d48611a355ec=1522651462; CNZZDATA1259283333=982903449-1522651135-%7C1522651135; Hm_lvt_5a84e7b6dc3ccb0c69ad5cc9f52411b1=1522651136; UM_distinctid=16285147dae10-0e956ea6483b6b8-1d451b27-1fa400-16285147daf154'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api2/web/index.php'
+    'REMOTE_PORT' => '49497'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api2/web/index.php'
+    'SCRIPT_NAME' => '/newapi/api2/web/index.php'
+    'PHP_SELF' => '/newapi/api2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526229187.213
+    'REQUEST_TIME' => 1526229187
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7ce0c23-e5d2-4c2b-8adc-d2905cc669e6" name="api" url="http://fg/newapi/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>

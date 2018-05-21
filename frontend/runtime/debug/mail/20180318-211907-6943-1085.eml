@@ -1,0 +1,60 @@
+Message-ID: <1ec1f44b868dcff6d08e7cd88d3d5041@fg>
+Date: Sun, 18 Mar 2018 21:19:07 +0800
+Subject: Password reset for =?utf-8?Q?=E5=B7=A5=E4=BD=9C=E4=BA=BA=E5=91=98?=
+ =?utf-8?Q?=E5=AE=89=E5=85=A8=E8=A7=84=E7=A8=8B?=
+ =?utf-8?Q?=E8=80=83=E6=A0=B8=E7=B3=BB=E7=BB=9F?=
+From: =?utf-8?Q?=E5=B7=A5=E4=BD=9C=E4=BA=BA=E5=91=98?=
+ =?utf-8?Q?=E5=AE=89=E5=85=A8=E8=A7=84=E7=A8=8B?=
+ =?utf-8?Q?=E8=80=83=E6=A0=B8=E7=B3=BB=E7=BB=9F?= robot
+ <support@example.com>
+To: facck@sina.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1521379147_da80f184b858f22719ae214e51206a0f_=_"
+
+
+--_=_swift_1521379147_da80f184b858f22719ae214e51206a0f_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello fang,
+
+Follow the link below to reset your password:
+
+http=
+://fg/newtest/frontend/web/index.php?r=3Dsite%2Freset-password&token=3DBrBk=
+7QEst9wIo9IzbGuyGlEPw-Xz5XY4_1521378246
+
+--_=_swift_1521379147_da80f184b858f22719ae214e51206a0f_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"password-reset">
+    <p>Hello fang,</p>
+
+    <p>Fol=
+low the link below to reset your password:</p>
+
+    <p><a href=3D"http:=
+//fg/newtest/frontend/web/index.php?r=3Dsite%2Freset-password&amp;token=3DB=
+rBk7QEst9wIo9IzbGuyGlEPw-Xz5XY4_1521378246">http://fg/newtest/frontend/web/=
+index.php?r=3Dsite%2Freset-password&amp;token=3DBrBk7QEst9wIo9IzbGuyGlEPw-X=
+z5XY4_1521378246</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1521379147_da80f184b858f22719ae214e51206a0f_=_--

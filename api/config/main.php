@@ -101,6 +101,7 @@ return [
 
                     'extraPatterns' => [
                         'POST search' => 'search',
+                        'GET search' => 'search',
                     ],
                 ],
             ],

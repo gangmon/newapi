@@ -39,7 +39,7 @@ class PostController extends ActiveController
 //        return new ActiveDataProvider([
 //           'query' => Post::find()->orderBy('id DESC')->asArray(),
 //        ]);
-        return $post = \Yii::$app->db->createCommand("SELECT * FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc ")
+        return $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,post.id AS post_id FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc")
             ->queryAll();
 
     }

@@ -83,6 +83,10 @@ return [
                     'extraPatterns' => [
                         'POST search' => 'search',
                         'GET test' => 'test',
+                        'GET gettoken' => 'gettoken',
+                        'POST gettoken' => 'gettoken',
+                        'GET qrcode' => 'qrcode',
+                        'POST qrcode' => 'qrcode',
                     ],
                 ],
                 [

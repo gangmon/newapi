@@ -20269,6 +20269,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1527092086.05
     'REQUEST_TIME' => 1527092086
 ]
+<<<<<<< HEAD
 2018-05-25 16:28:48 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id AS user_id ON post.appid = test_user.openid order by post.id desc' at line 1 in D:\web\newapi\vendor\yiisoft\yii2\db\Command.php:1258
 Stack trace:
 #0 D:\web\newapi\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
@@ -20308,6 +20309,10 @@ Array
 )
 
 2018-05-25 16:28:48 [127.0.0.1][-][-][info][application] $_GET = []
+=======
+2018-06-06 17:43:14 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 17:43:13 [::1][-][-][info][application] $_GET = []
 
 $_POST = []
 
@@ -20316,6 +20321,526 @@ $_FILES = []
 $_COOKIE = []
 
 $_SERVER = [
+    'UNIQUE_ID' => 'WxessVZtVx6A8ZMCchjguQAAAAE'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '58582'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528278193.879
+    'REQUEST_TIME' => 1528278193
+]
+2018-06-06 17:44:35 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 17:44:35 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WxetA3vO5qmYLG9YWERgDgAAAAQ'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '59100'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528278275.325
+    'REQUEST_TIME' => 1528278275
+]
+2018-06-06 18:23:25 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:23:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe2HRDFqAlWfeWBHVAu-wAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '51279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528280605.209
+    'REQUEST_TIME' => 1528280605
+]
+2018-06-06 18:34:40 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:34:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe4wBDFqAlWfeWBHVAvAwAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '54860'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528281280.011
+    'REQUEST_TIME' => 1528281280
+]
+2018-06-06 18:45:41 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:45:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe7VRDFqAlWfeWBHVAvCQAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '59521'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528281941.669
+    'REQUEST_TIME' => 1528281941
+]
+2018-06-06 18:48:53 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:48:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe8FXwmU4sbnbvFpE7-LgAAAAU'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '60863'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528282133.278
+    'REQUEST_TIME' => 1528282133
+]
+2018-06-06 18:50:46 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:50:46 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe8hhDFqAlWfeWBHVAvDAAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '61892'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528282246.663
+    'REQUEST_TIME' => 1528282246
+]
+2018-06-06 18:53:26 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:53:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe9JRDFqAlWfeWBHVAvDgAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '188'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '62759'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528282405.848
+    'REQUEST_TIME' => 1528282405
+]
+2018-06-06 18:57:40 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh-CN/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/newapi/api/messages/zh/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/newapi/frontend/models/User.php:68
+2018-06-06 18:57:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wxe@JFkNKUu7K@O@paf85gAAAAI'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '214'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:55766'
+    'HTTP_USER_AGENT' => 'wechatdevtools appservice port/62147'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '64244'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/userapi'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/userapi'
+    'PHP_SELF' => '/newapi/api/web/index.php/userapi'
+    'REQUEST_TIME_FLOAT' => 1528282660.145
+    'REQUEST_TIME' => 1528282660
+]
+2018-06-20 23:23:07 [::1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: api\controllers\AppidController::ajaxReturn() in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php(269): yii\base\Component->__call('ajaxReturn', Array)
+#1 [internal function]: api\controllers\AppidController->actionQrcode()
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('qrcode', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('appid/qrcode', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-06-20 23:23:05 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WypxWepHK4i6hxxOaHoPLAAAAAI'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '26'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:31893'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '63488'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/appid/qrcode'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529508185.214
+    'REQUEST_TIME' => 1529508185
+]
+2018-06-20 23:35:03 [::1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: api\controllers\AppidController::ajaxReturn() in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php(269): yii\base\Component->__call('ajaxReturn', Array)
+#1 [internal function]: api\controllers\AppidController->actionQrcode()
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('qrcode', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('appid/qrcode', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-06-20 23:35:02 [::1][-][-][info][application] $_GET = []
+>>>>>>> add Qrcode
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+<<<<<<< HEAD
     'MIBDIRS' => 'C:/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
     'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
@@ -20337,10 +20862,150 @@ $_SERVER = [
     'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5 Server at fg Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5'
+=======
+    'UNIQUE_ID' => 'Wyp0JupHK4i6hxxOaHoPLQAAAAI'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '26'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:31893'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '50176'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/appid/qrcode'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529508902.526
+    'REQUEST_TIME' => 1529508902
+]
+2018-06-20 23:44:58 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(./qrcode/code-131529509498.jpg): failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php:264
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/Applications/X...', 264, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php(264): file_put_contents('./qrcode/code-1...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: api\controllers\AppidController->actionQrcode()
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('qrcode', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('appid/qrcode', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2018-06-20 23:44:58 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wyp2evq9uV03DmteuGxU6wAAAAM'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '26'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:31893'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '52450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/appid/qrcode'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529509498.191
+    'REQUEST_TIME' => 1529509498
+]
+2018-06-20 23:47:53 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(./qrcode/code-131529509673.jpg): failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php:264
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/Applications/X...', 264, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php(264): file_put_contents('./qrcode/code-1...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: api\controllers\AppidController->actionQrcode()
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('qrcode', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('appid/qrcode', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2018-06-20 23:47:52 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'qsqt6r925sel7v708ltkb4vjk3'
+    '_csrf-backend' => '072e73517d97e532da6f6df98648ec4b496d285a5a306ae2090b6cf301366ccda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"O…œGð¨ha¦€¤Ô?bøMB ²#&Kí¨ \";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wyp3KAlLjxPZfX@AAYzkzAAAAAA'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'ee3ca804-84cc-4b5f-afca-c91c4e0ca32f'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.1.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'fg'
+    'HTTP_COOKIE' => 'advanced-backend=qsqt6r925sel7v708ltkb4vjk3; _csrf-backend=072e73517d97e532da6f6df98648ec4b496d285a5a306ae2090b6cf301366ccda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22O%16%85%1F%9C%07G%F0%A8ha%A6%80%A4%D4%3Fb%13%9D%1F%F8MB+%B2%23%26K%ED%16%A8+%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+>>>>>>> add Qrcode
     'SERVER_NAME' => 'fg'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
     'REMOTE_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'DOCUMENT_ROOT' => 'D:/web'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
@@ -20399,11 +21064,45 @@ Array
 )
 
 2018-05-25 16:30:49 [127.0.0.1][-][-][info][application] $_GET = []
+=======
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '52954'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/appid/qrcode'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529509672.298
+    'REQUEST_TIME' => 1529509672
+]
+2018-06-20 23:49:44 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: api\controllers\AppidController::ajaxReturn() in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php(269): yii\base\Component->__call('ajaxReturn', Array)
+#1 [internal function]: api\controllers\AppidController->actionQrcode()
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('qrcode', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('appid/qrcode', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-06-20 23:49:43 [127.0.0.1][-][-][info][application] $_GET = []
+>>>>>>> add Qrcode
 
 $_POST = []
 
 $_FILES = []
 
+<<<<<<< HEAD
 $_COOKIE = []
 
 $_SERVER = [
@@ -20428,10 +21127,33 @@ $_SERVER = [
     'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5 Server at fg Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5'
+=======
+$_COOKIE = [
+    'advanced-backend' => 'qsqt6r925sel7v708ltkb4vjk3'
+    '_csrf-backend' => '072e73517d97e532da6f6df98648ec4b496d285a5a306ae2090b6cf301366ccda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"O…œGð¨ha¦€¤Ô?bøMB ²#&Kí¨ \";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Wyp3l9zRb9JtLrMYSwiBbwAAAAQ'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd947bd69-2e57-4224-b6c9-60d8695cdf53'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.1.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'fg'
+    'HTTP_COOKIE' => 'advanced-backend=qsqt6r925sel7v708ltkb4vjk3; _csrf-backend=072e73517d97e532da6f6df98648ec4b496d285a5a306ae2090b6cf301366ccda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22O%16%85%1F%9C%07G%F0%A8ha%A6%80%A4%D4%3Fb%13%9D%1F%F8MB+%B2%23%26K%ED%16%A8+%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+>>>>>>> add Qrcode
     'SERVER_NAME' => 'fg'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
     'REMOTE_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'DOCUMENT_ROOT' => 'D:/web'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
@@ -20454,6 +21176,39 @@ $_SERVER = [
 2018-05-26 01:33:53 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\web\newapi\api/messages/zh-CN/app.php Fallback file does not exist as well: D:\web\newapi\api/messages/zh/app.php
     in D:\web\newapi\frontend\models\User.php:68
 2018-05-26 01:33:53 [::1][-][-][info][application] $_GET = []
+=======
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '53256'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/appid/qrcode'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529509783.731
+    'REQUEST_TIME' => 1529509783
+]
+2018-06-21 00:11:08 [::1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: api\controllers\AppidController::ajaxReturn() in /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/controllers/AppidController.php(269): yii\base\Component->__call('ajaxReturn', Array)
+#1 [internal function]: api\controllers\AppidController->actionQrcode()
+#2 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('qrcode', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('appid/qrcode', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/newapi/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-06-21 00:11:07 [::1][-][-][info][application] $_GET = []
+>>>>>>> add Qrcode
 
 $_POST = []
 
@@ -20462,6 +21217,7 @@ $_FILES = []
 $_COOKIE = []
 
 $_SERVER = [
+<<<<<<< HEAD
     'MIBDIRS' => 'C:/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
     'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
@@ -20475,10 +21231,21 @@ $_SERVER = [
     'HTTP_CACHE_CONTROL' => 'no-cache'
     'HTTP_ORIGIN' => 'http://127.0.0.1:17776'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1805181 MicroMessenger/6.5.7 Language/zh_CN webview/'
+=======
+    'UNIQUE_ID' => 'Wyp8m1DnENshYUC6WX4rCQAAAAY'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '26'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:31893'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/'
+>>>>>>> add Qrcode
     'CONTENT_TYPE' => 'application/json'
     'HTTP_ACCEPT' => '*/*'
     'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+<<<<<<< HEAD
     'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\gang\\AppData\\Local\\Microsoft\\WindowsApps;'
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
@@ -20487,10 +21254,17 @@ $_SERVER = [
     'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5 Server at fg Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5'
+=======
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+>>>>>>> add Qrcode
     'SERVER_NAME' => 'fg'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
     'REMOTE_ADDR' => '::1'
+<<<<<<< HEAD
     'DOCUMENT_ROOT' => 'D:/web'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
@@ -20498,10 +21272,20 @@ $_SERVER = [
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'D:/web/newapi/api/web/index.php'
     'REMOTE_PORT' => '51223'
+=======
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/newapi/api/web/index.php'
+    'REMOTE_PORT' => '55560'
+>>>>>>> add Qrcode
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'POST'
     'QUERY_STRING' => ''
+<<<<<<< HEAD
     'REQUEST_URI' => '/newapi/api/web/index.php/userapi'
     'SCRIPT_NAME' => '/newapi/api/web/index.php'
     'PATH_INFO' => '/userapi'
@@ -20509,4 +21293,13 @@ $_SERVER = [
     'PHP_SELF' => '/newapi/api/web/index.php/userapi'
     'REQUEST_TIME_FLOAT' => 1527269633.367
     'REQUEST_TIME' => 1527269633
+=======
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/Applications/XAMPP/xamppfiles/htdocs/appid/qrcode'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529511067.822
+    'REQUEST_TIME' => 1529511067
+>>>>>>> add Qrcode
 ]

@@ -132,6 +132,26 @@ class AppidController extends Controller
 
 
 
+    public function actionTemplate()
+    {
+        $url_token = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx2f44d41564140f7f&secret=de27bae6891e039c3b67909ddb645b57";
+//        $access_token = $this->getcurl($url_token);
+        $access_token = $this->get_access_token();
+        $url = "https://api.weixin.qq.com/cgi-bin/wxopen/template/library/list?access_token=".$access_token;
+
+        $data = array();
+        $data['offset'] = Yii::$app->request->post('offset');
+        $data['count'] = Yii::$app->request->post('count');
+//        print_r($data);
+        $result = $this -> sendCmd($url,$data);
+
+        return $result;
+
+
+    }
+
+
+
 
 
 

@@ -154,16 +154,46 @@ class AppidController extends Controller
         $access_token = $arr_access_token['access_token'];
         $url = "https://api.weixin.qq.com/cgi-bin/wxopen/template/library/list?access_token=".$access_token;
 //
-//        $data = array();
-//        $data['offset'] = Yii::$app->request->post('offset');
-//        $data['count'] = Yii::$app->request->post('count');
+        $data = array();
+        $data['offset'] = Yii::$app->request->post('offset');
+        $data['count'] = Yii::$app->request->post('count');
+        $data = json_encode($data);
 ////        print_r($data);
-        $data = '{"offset":0,"count":5}';
+//        $data = '{"offset":0,"count":5}';
 
         $result = $this -> sendCmd($url,$data);
 
         return $result;
 
+
+    }
+    public function actionSendmsg()
+    {
+        $appid = 'wx2f44d41564140f7f';
+        $secret = 'de27bae6891e039c3b67909ddb645b57';
+
+
+        $url_access_token = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$appid.'&secret='.$secret;
+
+        $json_access_token = $this -> sendCmd($url_access_token,array());
+
+        $arr_access_token = json_decode($json_access_token,true);
+
+        $access_token = $arr_access_token['access_token'];
+
+        $url = "https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=".$access_token;
+        $data = array();
+        $data['form_id'] = Yii::$app->request->post('form_id');
+        $data['touser'] = Yii::$app->request->post('touser');
+        $data['template_id'] = Yii::$app->request->post('template_id');
+        $data['data'] = Yii::$app->request->post('data');
+
+
+        $data = json_encode($data);
+
+        $result = $this -> sendCmd($url,$data);
+
+        return $result;
 
     }
 

@@ -333,7 +333,7 @@ class AppidController extends Controller
 
             //存储二维码路径
 
-            $arr = array('code'=>1,'msg'=> 'newapi/api/web/qrcode/code-'.$name.'.jpg');
+            $arr = array('code'=>1,'msg'=> 'api/web/qrcode/code-'.$name.'.jpg');
             return($arr);
 
         } else {

@@ -87,7 +87,9 @@ return [
                         'POST gettoken' => 'gettoken',
                         'GET qrcode' => 'qrcode',
                         'POST qrcode' => 'qrcode',
-                        'POST template' => 'template'
+                        'POST template' => 'template',
+                        'POST sendmsg' => 'sendmsg'
+
                     ],
                 ],
                 [

@@ -42,7 +42,7 @@ class PostController extends ActiveController
 
 //        return $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,post.id AS post_id FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc");
 
-        return $post = \Yii::$app->db->createCommand("SELECT * FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 5")->queryAll();
+        return $post = \Yii::$app->db->createCommand("SELECT * FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 10")->queryAll();
 
     }
 //

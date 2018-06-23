@@ -99,6 +99,7 @@ return [
 
                     'extraPatterns' => [
                         'POST findexit' => 'findexit',
+                        'GET findexit'  => 'findexit',
                     ],
 
                 ],

@@ -230,7 +230,7 @@ class Post extends \yii\db\ActiveRecord
             'avatar' => function($model){
             return $model->avatar->avatar;
             },
-            'created_at' => function($model){
+            'created' => function($model){
                 return date('Y-m-d h:i:s',$model->created_at);
             },
 //date('Y-m-d h:i:s',$model->updated_at),
@@ -242,7 +242,7 @@ class Post extends \yii\db\ActiveRecord
     }
     public function extraFields()
     {
-        return ['avatar'];
+        return ['avatar','created'];
         //http://fg/yiiapi/app/api/web/index.php/articles?expand=createBy
     }
 }

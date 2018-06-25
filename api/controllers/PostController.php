@@ -5,6 +5,8 @@ use yii\data\ActiveDataProvider;
 use yii\rest\ActiveController;
 use common\models\Post;
 use yii\db\Query;
+use yii\web\NotFoundHttpException;
+use Yii;
 
 class PostController extends ActiveController
 {
@@ -20,6 +22,30 @@ class PostController extends ActiveController
 //        return $action;
 //    }
 //
+    protected function findModel($id)
+    {
+        if (($model = Post::findOne($id)) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException('The requested page does not exist.');
+        }
+    }
+
+    public function actionAddread()
+    {
+        $id = \Yii::$app->request->post('id');
+//        return $id;
+        $model = $this->findModel($id);
+        $model->times = $model->times + 1;
+        $model->save();
+        return $id;
+    }
+    public function actionSearchsomething()
+    {
+        $data = Yii::$app->request->post('data');
+
+    }
+
     public function actionSearch()
     {
         $modelClass = $this->modelClass;
@@ -43,6 +69,10 @@ class PostController extends ActiveController
         return $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,post.id AS post_id FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 10")->queryAll();
 
 //        return $post = \Yii::$app->db->createCommand("SELECT * FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 10")->queryAll();
+
+    }
+    public function actionCountcomments()
+    {
 
     }
 //

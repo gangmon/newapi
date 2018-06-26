@@ -32,6 +32,24 @@ class Post extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+//    public function beforeSave($insert)
+//    {
+//        if(parent::beforeSave($insert))
+//        {
+//            if($insert)
+//            {
+//                $this->created_at = time();
+//            }
+//
+//
+//            return true;
+//        }
+//        else
+//        {
+//            return false;
+//        }
+//    }
+
     public static function tableName()
     {
         return '{{post}}';

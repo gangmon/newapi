@@ -45,11 +45,12 @@ class Comment extends \yii\db\ActiveRecord
         return [
             [['title'], 'required'],
             [['title', 'status'], 'string'],
-            [['created_at', 'user_id', 'post_id', 'remind'], 'integer'],
+            [['created_at',  'post_id', 'remind'], 'integer'],
             [['email'], 'string', 'max' => 100],
             [['url'], 'string', 'max' => 256],
+            [['user_id'],'safe'],
             [['post_id'], 'exist', 'skipOnError' => true, 'targetClass' => Post::className(), 'targetAttribute' => ['post_id' => 'id']],
-            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
+//            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
 

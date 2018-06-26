@@ -111,6 +111,8 @@ return [
                         'POST search' => 'search',
                         'GET search' => 'search',
                         'POST addread' => "addread",
+                        'POST searchsomething' => 'searchsomething'
+                        
                     ],
                 ],
             ],

@@ -40,9 +40,22 @@ class PostController extends ActiveController
         $model->save();
         return $id;
     }
+
+    public function actionCreatecomment()
+    {
+
+    }
+
     public function actionSearchsomething()
     {
         $data = Yii::$app->request->post('data');
+        $params = ['title:' => $data];
+        $result = \Yii::$app->db->createCommand("select * from post where (title like '%$data%')")->queryAll();
+
+        return $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,post.id AS post_id FROM post LEFT JOIN test_user ON post.appid = test_user.openid where (title like '%$data%') order by post.id desc limit 15")->queryAll();
+
+//        echo $data;
+        return $result;
 
     }
 

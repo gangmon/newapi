@@ -111,7 +111,19 @@ return [
                         'POST search' => 'search',
                         'GET search' => 'search',
                         'POST addread' => "addread",
-                        'POST searchsomething' => 'searchsomething'
+                        'POST searchsomething' => 'searchsomething',
+
+                    ],
+                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => 'comment',
+
+                    'extraPatterns' => [
+                        'POST search' => 'search',
+                        'GET search' => 'search',
+                        'POST addread' => "addread",
+                        'POST searchsomething' => 'searchsomething',
 
                     ],
                 ],

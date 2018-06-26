@@ -121,6 +121,7 @@ return [
 
                     'extraPatterns' => [
                         'POST search' => 'search',
+                        'POST getusercomment' => 'getusercomment',
                         'GET search' => 'search',
                         'POST addread' => "addread",
                         'POST searchsomething' => 'searchsomething',

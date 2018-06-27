@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cae2804d-2a6d-48df-8e7e-7e3e80e56558" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cae2804d-2a6d-48df-8e7e-7e3e80e56558" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppidController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppidController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/controllers/AppidController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1783">
-              <caret line="42" column="89" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="89" />
+            <state relative-caret-position="106">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/runtime/debug/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/models/SignupForm.php" />
         <option value="$PROJECT_DIR$/frontend/views/post/_form.php" />
         <option value="$PROJECT_DIR$/backend/views/comment/_form.php" />
         <option value="$PROJECT_DIR$/backend/views/comment/_search.php" />
@@ -184,6 +190,7 @@
         <option value="$PROJECT_DIR$/api/controllers/CommentController.php" />
         <option value="$PROJECT_DIR$/api/config/main.php" />
         <option value="$PROJECT_DIR$/api/controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/api/runtime/debug/.gitignore" />
       </list>
     </option>
   </component>
@@ -328,6 +335,19 @@
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="newapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newapi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="newapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newapi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="debug" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -430,12 +450,12 @@
       <workItem from="1530023580645" duration="2602000" />
       <workItem from="1530060304024" duration="57000" />
       <workItem from="1530065063537" duration="1799000" />
-      <workItem from="1530108391433" duration="5153000" />
+      <workItem from="1530108391433" duration="5446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465437000" />
+    <option name="totallyTimeSpent" value="465730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="987" extended-state="6" />
@@ -488,16 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/controllers/CommentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -794,8 +804,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/AppidController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1783">
-          <caret line="42" column="89" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="89" />
+        <state relative-caret-position="106">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/runtime/debug/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

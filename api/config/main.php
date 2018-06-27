@@ -124,6 +124,7 @@ return [
                         'POST getusercomment' => 'getusercomment',
                         'GET search' => 'search',
                         'POST addread' => "addread",
+                        'GET countcomment' => 'countcomment',
                         'POST searchsomething' => 'searchsomething',
 
                     ],

@@ -14,7 +14,7 @@ class CommentController extends ActiveController
     {
         $postID = \Yii::$app->request->post('post_id');
 
-        $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,post.id AS post_id,test_user.created_at AS user_create_time,post.created_at as create_time FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 10")->queryAll();
+//        $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,post.id AS post_id,test_user.created_at AS user_create_time,post.created_at as create_time FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 10")->queryAll();
 
 
         $result = \Yii::$app->db->createCommand("select * from test_comment LEFT JOIN test_user on test_comment.user_id = test_user.openid where post_id = $postID order by test_comment.created_at desc")->queryAll();

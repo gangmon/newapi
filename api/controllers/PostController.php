@@ -79,13 +79,30 @@ class PostController extends ActiveController
 //           'query' => Post::find()->orderBy('id DESC')->asArray(),
 //        ]);
 
-        return $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,
-                                                post.id AS post_id,
-                                                test_user.created_at AS user_create_time,
-                                                post.created_at as create_time
-                                                FROM post 
-                                                LEFT JOIN test_user ON post.appid = test_user.openid
-                                                order by post.id desc limit 10")->queryAll();
+//        return $post = \Yii::$app->db->createCommand("SELECT *,test_user.id AS user_id,
+//                                                post.id AS post_id,
+//                                                test_user.created_at AS user_create_time,
+//                                                post.created_at as create_time
+//                                                FROM post
+//                                                LEFT JOIN test_user ON post.appid = test_user.openid
+//                                                order by post.id desc limit 10" )->queryAll();
+        return $post= Yii::$app->db->createCommand("
+SELECT
+    *,
+    test_user.id AS user_id,
+    post.id AS post_id,
+    test_user.created_at AS user_create_time,
+    post.created_at AS create_time,
+    (SELECT COUNT(*) FROM test_comment WHERE test_comment.post_id = post.id) AS commentNum
+FROM
+    post
+LEFT JOIN test_user ON post.appid = test_user.openid
+
+ORDER BY
+    post.id
+DESC
+LIMIT 10"
+        )->queryAll();
 
 //        return $post = \Yii::$app->db->createCommand("SELECT * FROM post LEFT JOIN test_user ON post.appid = test_user.openid order by post.id desc limit 10")->queryAll();
 
@@ -94,7 +111,7 @@ class PostController extends ActiveController
     public function actionCountcomment()
     {
         $postID = Yii::$app->request->get("post_id");
-        return $test = Yii::$app->db->createCommand("SELECT count(*) as commentNum from test_comment where test_comment.user_id = $postID");
+        return $test = Yii::$app->db->createCommand("SELECT count(*) as commentNum from test_comment where test_comment.post_id = $postID");
 
     }
 //

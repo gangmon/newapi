@@ -21303,3 +21303,125 @@ $_SERVER = [
     'REQUEST_TIME' => 1529511067
 >>>>>>> add Qrcode
 ]
+2018-06-28 21:26:52 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 33410 bytes' 
+
+in /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/newapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/newapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-28 21:26:52 [::1][-][-][info][application] $_GET = [
+    'code' => '081yhBM02mD6f01NcjM02WzRM02yhBM4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WzTiHPvDAZV6qawAD2Pg4AAAAAI'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/newapi/api/web/index.php'
+    'REMOTE_PORT' => '33344'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'code=081yhBM02mD6f01NcjM02WzRM02yhBM4'
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid?code=081yhBM02mD6f01NcjM02WzRM02yhBM4'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid'
+    'PATH_TRANSLATED' => '/home/gang/web/appid'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid'
+    'REQUEST_TIME_FLOAT' => 1530192412.258
+    'REQUEST_TIME' => 1530192412
+]
+2018-06-28 21:28:17 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 33410 bytes' 
+
+in /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/newapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/newapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/newapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-28 21:28:17 [::1][-][-][info][application] $_GET = [
+    'code' => '021sZ3g91NhGLR1Z3Eg91XKWf91sZ3gi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WzTicf4uy9FwmMMDwRas5AAAAAw'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/newapi/api/web/index.php'
+    'REMOTE_PORT' => '34802'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'code=021sZ3g91NhGLR1Z3Eg91XKWf91sZ3gi'
+    'REQUEST_URI' => '/newapi/api/web/index.php/appid?code=021sZ3g91NhGLR1Z3Eg91XKWf91sZ3gi'
+    'SCRIPT_NAME' => '/newapi/api/web/index.php'
+    'PATH_INFO' => '/appid'
+    'PATH_TRANSLATED' => '/home/gang/web/appid'
+    'PHP_SELF' => '/newapi/api/web/index.php/appid'
+    'REQUEST_TIME_FLOAT' => 1530192497.561
+    'REQUEST_TIME' => 1530192497
+]
